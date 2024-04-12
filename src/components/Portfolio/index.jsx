@@ -6,35 +6,31 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surfReport',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'bookSearchEngine',
+      description: 'MERN',
+      link: "https://book-search-engine-p7l0.onrender.com/",
+      repo: "https://github.com/jakesmitty05/book-search-engine"
     },
     {
-      name: 'pastelPuzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'textEditorPWA',
+      description: 'PWA',
+      link: "https://text-editor-pwa-27vb.onrender.com/",
+      repo: "https://github.com/jakesmitty05/text-editor-PWA"
     },
     {
-      name: 'runBuddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'techBlog',
+      description: 'MYSQL/Sequelize',
+      link: "https://tech-blog-app-js-8c0ad948360a.herokuapp.com/",
+      repo: "https://github.com/jakesmitty05/tech-blog-app"
     },
     {
-      name: 'ledWall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'noteTaker',
+      description: 'Express/JavaScript/CSS',
+      link: "https://note-taker-app-js-a62d5ffa562d.herokuapp.com/",
+      repo: "https://github.com/jakesmitty05/note-taker-app"
     },
-    {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
+    
+    
   ]);
 
   return (
@@ -49,6 +45,6 @@ function Portfolio() {
       </div>
     </div>
   );
-};
+}
 
 export default Portfolio;
