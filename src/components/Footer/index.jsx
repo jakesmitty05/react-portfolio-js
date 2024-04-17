@@ -8,7 +8,7 @@ function Footer() {
     },
     {
       name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/"
+      link: "https://www.linkedin.com/in/jacob-smith-5b78192ba/"
     },
     {
       name: "fab fa-stack-overflow",
